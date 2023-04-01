@@ -19,7 +19,7 @@ class _HomePageState extends State<HomePage> {
           title: const Text("INVOICE GENERATOR"),
           centerTitle: true,
           actions: [
-            TextButton(
+            ElevatedButton(
               style: TextButton.styleFrom(
                   textStyle: const TextStyle(fontSize: 20)),
               onPressed: () {
