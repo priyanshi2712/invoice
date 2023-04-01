@@ -41,10 +41,10 @@ class pdfGon{
     pdf.addPage(
       pw.Page(
         pageFormat: PdfPageFormat.a4,
-        margin: pw.EdgeInsets.all(10),
+        margin: const pw.EdgeInsets.all(10),
         build: (pw.Context context){
           return  pw.Container(
-            margin: pw.EdgeInsets.all(20),
+            margin: const pw.EdgeInsets.all(20),
             height: double.infinity,
             width: double.infinity,
             decoration: pw.BoxDecoration(color: PdfColors.white, boxShadow: [
